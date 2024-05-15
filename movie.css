@@ -1,3 +1,13 @@
+/*body{*/
+/*    background-image: url("images/aleksandr-artiushenko-7q37riFvDaE-unsplash.jpg");*/
+/*    animation: animate 30s linear infinite;*/
+/*}*/
+/*@keyframes animate {*/
+/*    0%{*/
+/*        background-position: bottom;*/
+/*        background-repeat: repeat;*/
+/*    }*/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,18 +18,18 @@
     justify-content: center;
 }
 .search input{
-    width: 300px;
+    width: 320px;
     height: 20px;
     margin: 20px;
 
 }
 .movieDetails{
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    /*height: 400px;*/
 }
 .movieDetails img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    /*height: 400px;*/
 }
 .movieTitle{
     display: flex;
